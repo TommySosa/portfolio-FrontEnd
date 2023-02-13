@@ -21,12 +21,30 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }*/
+
+h1{
+  text-align: left; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #25fc98; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
 .sombreado{
   color: #fff;
   /*background-color: rgba(68, 67, 66, 0.8); */
   background-color: rgba(68, 67, 66, 0.8);
   border-radius: 25px;
   padding: 10px;
+}
+.modal-content {
+  background-color: #25fc98;
+}
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 .circle {
   width: 200px;
@@ -50,7 +68,7 @@ body{
   text-align: center;
   line-height: 40px;
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 .circle strong i {
@@ -65,11 +83,10 @@ body{
   margin-top: 12px;
 }
 .typing {
-
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0 auto;
     font-family: "Courier New";
     border-right: 0.15em solid #18bdec;
@@ -88,3 +105,4 @@ body{
       border-color: transparent;
     }
   }
+  
